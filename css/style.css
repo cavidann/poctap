@@ -1,0 +1,376 @@
+@font-face {
+   font-family: "az";
+   src: url('ArialNU.otf');
+}
+/** {
+    box-sizing: border-box;
+}*/
+[class*="col"] {
+    /*border: 2px red solid;*/
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.right{
+    float: right;
+}
+.top{
+   margin-top: 20px; 
+}
+.orta{
+    margin: 0 auto;
+}
+.logo{
+    background: rgba(338, 121, 38, 0.8);
+    padding: 10px 25px;
+border-radius: 6%; 
+}
+.col1 {
+        width: 8.33%;
+    }
+    .col2 {
+        width: 16.66%;
+    }
+    .col3 {
+        width: 25%;
+    }
+    .col4 {
+        width: 33.33%;
+    }
+    .col5 {
+        width: 41.66%;
+    }
+    .col6 {
+        width: 50%;
+    }
+    .col7 {
+        width: 58.33%;
+    }
+    .col8 {
+        width: 66.66%;
+    }
+    .col9 {
+        width: 75%;
+    }
+    .col10 {
+        width: 83.33%;
+    }
+    .col11 {
+        width: 91.66%;
+    }
+    .col12 {
+        width: 100%;
+    }
+    .coll4{
+width: 33.33%;
+    }
+    .row{
+         width: 60.66%;
+    }
+    .row1{
+        /*border: 2px solid;*/
+        width: 10%;
+    }
+    .row2{
+        width: 85.33%;
+        /*border: 2px solid; */
+    }
+    .row3{
+        width: 100%;
+    }
+    .row4{
+         width: 91%;
+    }
+    .row5{
+width: 33.33%;
+    }
+    .row6{
+        /*border: 2px solid;*/
+       width: 16.66%; 
+    }
+    .map{
+        background: url(../images/map.png) no-repeat;    
+          height: 650px;;
+         
+    }
+   .layer{
+      
+     width: 100%;  
+     background: rgba(38, 141, 155, 1);
+   }
+  .col3 b{
+       margin-right:20px; 
+       color: white;
+       font-size: 25px;
+       padding-bottom:10px; 
+   }
+t{
+       color: white; 
+font-size: 20px;
+
+   }
+   .button{
+       background: #fbc222;
+       border-radius: 5%;
+       padding: 18px 14px; 
+   }
+   .fa-search{
+     color: black;
+   }
+   a t{
+         color: black;
+   }
+   a{
+ text-decoration: none; 
+   }
+   .mlp{
+       /*margin-bottom: 30px;*/
+        margin-top: 25px;
+       margin-left:25px;
+       margin-right: 10px; 
+   }
+ h1{
+     margin-top: 100px; 
+     color: white;
+ }
+ i{
+     color: #fbc222;
+     
+ }
+ .col5 t{
+     margin-left:5px; 
+     line-height: 31px;
+ }
+ h4{
+   text-align: center;  
+ }
+ o{
+     color: black;
+ }
+ .ip{
+     padding: 19px; 
+ }
+ .b1{
+     border-radius: 3%; 
+     margin-top: 30px;
+     background: #fbc222;
+      padding: 20px 0px; 
+      text-align:  center;
+      font-size: 25px;
+ }
+ .ppd{
+     padding-top: 5%; 
+ }
+ h2{
+     padding: 8px;
+     text-align: center;
+    /*border: 2px solid;*/
+ }
+ /*diqqet*/
+ .flex{
+     display: flex;
+    flex-wrap: wrap;
+ }
+ .sened{   
+     margin: 13px;
+     flex: 20%;
+     /*border: 2px solid;*/
+     background: white;
+ }
+ .sened:hover{
+     box-shadow: 0px 0px 5px #fbc222; 
+ }
+ .fa-id-card-o{
+    margin: 13px; 
+    font-size: 30px; 
+     color: grey;
+     text-align: center;
+ padding: 50px 0px; 
+ }
+
+ .sened b{
+     margin-top: 30px;
+ }
+.row4{
+    margin: 30px 0px;
+}
+.button1 p{
+    border: 1px solid orangered;
+    padding: 15px 35px;
+    border-radius: 3%; 
+    margin-bottom: 50px; 
+}
+.button1 p:hover{
+    background: orangered;
+    color: white;
+}
+.foot{
+    text-align: center;
+    border: 1px solid;
+    flex: 33%;
+   margin: 70px 10px;     
+}
+.r{
+    display: flex;
+    
+}
+.foot img{
+    height: 110px;
+    width: 123px;
+    /*margin: 0;*/
+  
+    margin-bottom: 35px; 
+}
+.foot p{
+    font-size: 18px; 
+}
+.bb{
+    border-bottom: 1px solid gray; 
+}
+.backk{
+    background: #e7e7e7;
+}
+@media only screen and (max-width: 768px){
+.colm1 {
+        width: 8.33%;
+    }
+    .colm2 {
+        width: 16.66%;
+    }
+    .colm3 {
+        width: 25%;
+    }
+    .colm4 {
+        width: 33.33%;
+    }
+    .colm5 {
+        width: 41.66%;
+    }
+    .colm6 {
+        width: 50%;
+    }
+    .colm7 {
+        width: 58.33%;
+    }
+    .col8 {
+        width: 66.66%;
+    }
+    .colm9 {
+        width: 75%;
+    }
+    .colm10 {
+        width: 83.33%;
+    }
+    .colm11 {
+        width: 91.66%;
+    }
+    .colm12 {
+        width: 100%;
+    }
+    .collm4{
+width: 33.33%;
+    }
+    .rowm{
+         width: 60.66%;
+    }
+    .rowm1{
+        border: 2px solid;
+        width: 8.33%;
+    }
+    .rowm2{
+        width: 85.33%;
+        border: 2px solid; 
+    }
+    .rowm3{
+        width: 100%;
+    }
+    .rowm4{
+         width: 91%;
+    }
+    .rowm5{
+width: 33.33%;
+    }
+    .rowm6{
+        border: 2px solid;
+       width: 16.66%; 
+    }
+    .mapm{
+      height: 100%;   
+    }
+}
+@media only screen and (max-width: 864px){
+ 
+.fa-id-card-o {
+   margin-left: 23;
+  
+}
+.mr{
+    width: 100%;
+}
+.colc5{
+   margin: 6px;
+    float: left;
+    width: 50%;
+}
+.colm2{
+    width: 50%;
+}
+.logo{
+width: 50%;
+}
+
+t{
+    color: black;
+}
+.tbt{
+    color: white;
+}
+.button1{
+    width: 30%;
+}
+}
+
+@media only screen and (max-width: 570px){
+[class*="col"] {
+   width: 100%;
+}
+h1{
+    color: black;
+}
+.sened{
+    flex: 150%;
+}
+.foot{
+    flex: 150px;
+    
+}
+.map{
+    height: 40%;
+}
+.r{
+    
+flex-wrap: wrap;
+}
+.button{
+    flex: 100%;
+    float: left;
+    width: 90%;
+}
+.row{
+    width: 100%;
+}
+.orta{
+    width: 100%;
+}
+
+t{
+    color: black;
+}
+.tbt{
+    color: white;
+}
+.foot{
+    flex: 100%;
+}
+}
